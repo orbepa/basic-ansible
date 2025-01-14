@@ -1,5 +1,5 @@
 - name: My first play
-  hosts: UK2-Inventory-Test-Patching
+  hosts: 10.74.141.51,10.74.141.52
   tasks:
    - name: Ping my hosts
      ansible.builtin.ping:
